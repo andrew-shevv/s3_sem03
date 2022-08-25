@@ -8,6 +8,6 @@ Console.WriteLine("Input positive number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 for (double i = 1; i <= num; i++){
-        double count = Math.Pow(i, 2);
-        Console.Write($"{count} ");
-    }
+    double count = Math.Pow(i, 2);
+    Console.Write($"{count} ");
+}
