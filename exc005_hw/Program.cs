@@ -7,6 +7,7 @@
 
 Console.WriteLine("Input five-digit number: ");
 int num5dig = Convert.ToInt32(Console.ReadLine());
+num5dig = Math.Abs(num5dig);
 
 if (num5dig > 9999 && num5dig < 100000){
     Console.WriteLine("Is this number a palindrome?");
